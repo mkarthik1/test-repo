@@ -1,0 +1,21 @@
+/*
+
+Main CSS contains all the CSS styles
+
+*/
+
+/*
+Imports
+*/
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_base.scss";
+@import "_typography.scss";
+
+/*
+Main Styles
+*/
+
+li[role="presentation"]{
+background-color: $secondary-color;
+}

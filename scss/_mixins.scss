@@ -1,0 +1,17 @@
+/*
+Mixins
+*/
+@mixin border-radius-allbrowser($radius){
+-webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+                border-radius: $radius;
+          }
+@mixin font-styling($background-color){
+@if $background-color == $light-color{
+color: #333;
+}@else{
+color: #fff;
+}
+
+}

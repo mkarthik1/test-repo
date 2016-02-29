@@ -1,0 +1,57 @@
+/*
+
+Main CSS contains all the CSS styles
+
+*/
+/*
+Imports
+*/
+/*Variables*/
+/*
+Mixins
+*/
+/*Base Template*/
+/* line 3, ../scss/_base.scss */
+body {
+  padding-top: 50px;
+  background-color: #3399ff;
+}
+
+/* line 7, ../scss/_base.scss */
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+  background-color: white;
+  color: #333;
+}
+
+/* line 13, ../scss/_base.scss */
+section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 16, ../scss/_base.scss */
+section .row div div {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  color: #333;
+}
+
+/*Typography*/
+/* line 2, ../scss/_typography.scss */
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+/*
+Main Styles
+*/
+/* line 19, ../scss/main.scss */
+li[role="presentation"] {
+  background-color: #ff3399;
+}

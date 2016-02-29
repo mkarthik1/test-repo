@@ -53,5 +53,14 @@ Main Styles
 */
 /* line 19, ../scss/main.scss */
 li[role="presentation"] {
-  background-color: #ff3399;
+  background-color: white;
+}
+/* line 21, ../scss/main.scss */
+li[role="presentation"].active, li[role="presentation"].active a {
+  background-color: bisque;
+}
+
+/* line 27, ../scss/main.scss */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  background-color: bisque;
 }

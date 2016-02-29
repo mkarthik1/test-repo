@@ -17,5 +17,13 @@ Main Styles
 */
 
 li[role="presentation"]{
-background-color: $secondary-color;
+background-color: $light-color;
+&.active, &.active a{
+background-color: $highlight-color;
+}
+
+
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+background-color: $highlight-color;
 }
